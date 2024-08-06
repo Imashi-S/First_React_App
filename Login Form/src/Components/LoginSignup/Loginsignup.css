@@ -1,0 +1,103 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .create-account {
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  
+  .create-account img {
+        width: 150px; 
+        height: auto; 
+        border-radius: 8px; 
+        display: block; 
+        margin: 0 auto; 
+  }
+
+
+  .create-account h2 {
+    margin-bottom: 20px;
+    color: hsl(189, 94%, 42%);
+  }
+
+  input::placeholder {
+    font-size: 12px;
+  }
+
+  .create-account h3 {
+    font-size: 11px;
+    margin-bottom: 7px;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    color:rgba(0, 0, 0, 0.829)
+ }
+  
+  .create-account p {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: -14px;
+   
+    color: #000000d0;
+    font-size: 12px;
+  }
+  
+  .create-account form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .create-account input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .create-account input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+  }
+  
+  .create-account button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .create-account button:hover {
+    background-color: rgba(1, 11, 22, 0.5);
+  }
+  
+  .create-account button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(1, 11, 22, 0.5);
+  }
+  
